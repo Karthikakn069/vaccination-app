@@ -1,0 +1,68 @@
+.ce-radio{
+  display: flex;
+  flex-direction: row !important;
+}
+.cen-tab{
+  width: 100%;
+  margin-top: 30px;
+}
+.cen-tab-out{
+  display: flex;
+  justify-content: center;
+}
+.admin-out{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.cen-man-form input{
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 5px 3px 5px 3px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.cen-man-form button , .rem-but , .asl-but{
+  border : none;
+  color: white;
+  background-color: black;
+  font-weight: 600;
+  padding: 7px 10px 7px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.cen-man-form label{
+  font-size: large;
+}
+.rem-slot , .add-slot{
+  display: flex;
+  flex-direction: row;
+  font-size: 17px;
+}
+#slot-time{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.rem-slot button , .add-sl-ti button{
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 5px 10px 5px 10px;
+  border-radius: 2px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.time-picker input{
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 30px !important;
+  height: 20px !important;
+}
+.add-sl-ti{
+  display: flex;
+  flex-direction: row;
+}
+.add-slot{
+  margin-top: 5px;
+}

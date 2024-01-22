@@ -1,0 +1,34 @@
+.blur{
+  filter: blur(5px);
+}
+.home-inner{
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+.hi-left{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hi-left a{
+  display: block;
+  font-size: 25px;
+}
+.hi-left h3{
+  font-size: 30px;
+}
+.hi-left h3 , .hi-left a {
+  width: 70%;
+  text-align: center;
+}
+.hi-right{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin-right: 3px;
+}

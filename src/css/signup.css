@@ -1,0 +1,55 @@
+.sign-top{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sign-top img{
+  width: 50px;
+}
+.sign-top h4{
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 30px;
+  font-weight: 50;
+}
+.sign-input h6{
+  font-size: 15px;
+  font-weight: 30;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+.sign-input input{
+  padding: 10px 50px 10px 10px;
+}
+.sign-outer{
+  background-color: white;
+  position: fixed;
+  top: 30px;
+  left: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.sign-inner{
+  border: 3px solid black;
+  box-shadow: 10px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding : 50px 50px 50px 50px;
+  border-radius: 25px;
+}
+.sign-mem{
+ display: flex;
+ justify-content: center;
+}
+.sign-input{
+  display: flex;
+  flex-direction: column;
+}
+.sig-exit{
+  position: relative;
+  top : 45px;
+  left: 125px;
+  cursor: pointer;
+}

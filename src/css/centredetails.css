@@ -1,0 +1,32 @@
+.cen-det{
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  position: relative;
+  bottom: 350px;
+  left: 350px;
+  background-color: white;
+  padding-bottom: 30px;
+  border-radius: 10px;
+}
+.cen-det-2{
+  text-align:center;
+}
+.cen-det-exit{
+  position: relative;
+  left: 340px;
+  top :10px;
+  cursor: pointer;
+}
+.bks-but{
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px 10px 20px;
+  font-weight: 600;
+  border-radius: 10px;
+}
