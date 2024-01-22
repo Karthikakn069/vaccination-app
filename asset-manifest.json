@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/vaccination-app/static/css/main.f95183da.css",
+    "main.js": "/vaccination-app/static/js/main.62497582.js",
+    "static/js/787.d5fa4d18.chunk.js": "/vaccination-app/static/js/787.d5fa4d18.chunk.js",
+    "static/media/vaccine.png": "/vaccination-app/static/media/vaccine.956cb925eebf9bcb9f61.png",
+    "static/media/login.png": "/vaccination-app/static/media/login.663548e3c7a0a4e14afb.png",
+    "static/media/100crore.jpg": "/vaccination-app/static/media/100crore.e0dfae5ef590746c467e.jpg",
+    "index.html": "/vaccination-app/index.html",
+    "main.f95183da.css.map": "/vaccination-app/static/css/main.f95183da.css.map",
+    "main.62497582.js.map": "/vaccination-app/static/js/main.62497582.js.map",
+    "787.d5fa4d18.chunk.js.map": "/vaccination-app/static/js/787.d5fa4d18.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f95183da.css",
+    "static/js/main.62497582.js"
+  ]
+}
