@@ -1,24 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import {Outlet , useLocation , useParams} from 'react-router-dom';
+import './css/header.css';
+import Home from './pages/Home';
+import { useState , useEffect } from 'react';
+import Header from './pages/Header';
+
 
 function App() {
+  const [isOutletRendering , setIsOutletRendering] = useState(false);
+  //const [userEmail , setUserEmail] = useState('');
+  const {userEmail} = useParams();
+  console.log(userEmail);
+
+
+  const location = useLocation();
+  useEffect(()=>{
+    setIsOutletRendering(location.pathname !== '/')
+  },[location])
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header isBlurred = {isOutletRendering} mail = {userEmail} />
+      <Home isBlurred = {isOutletRendering} />
+      <div id = "detail">
+        <Outlet onRender = { () => {setIsOutletRendering(true)}}/>
+      </div>
     </div>
+    
   );
 }
 

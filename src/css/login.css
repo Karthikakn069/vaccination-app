@@ -1,0 +1,69 @@
+.login-top{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-top img{
+  width: 50px;
+}
+.login-top h4{
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 30px;
+  font-weight: 50;
+}
+.login-input h6{
+  font-size: 15px;
+  font-weight: 30;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.login-input input{
+  padding: 10px 50px 10px 10px;
+}
+.login-outer{
+  background-color: white;
+  position: fixed;
+  top: 100px;
+  left: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-inner{
+  border: 3px solid black;
+  box-shadow: 10px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding : 70px 50px 70px 50px;
+  border-radius: 25px;
+}
+.login-input{
+  display: flex;
+  flex-direction: column;
+}
+#submit{
+  padding: 5px 5px 5px 5px;
+  margin-top: 10px;
+  border-radius: 25px;
+}
+#submit:hover{
+  cursor: pointer;
+}
+.log-exit{
+  position: relative;
+  top: 45px;
+  left: 125px;
+  cursor: pointer;
+}
+.login-input button , .sign-input button{
+  border: none;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 55px;
+}
